@@ -1,19 +1,8 @@
-{
-    "title": "安裝環境",
-    "context": "安裝 React 基本開發環境",
-    "p":[
-        {
-            "title": "為甚麼要React",
-            "context": "React 是一款 javascript Base 的前端函式庫，和一般的框架不同的是React只是一款用來渲染的函示庫，只是用起來和一般的 vue angular 等框架差不多。再加上 React 還有其相關的姊妹軟體，如：React Native 和 React 360 等，可以輕易的以類似的語言邏輯輕易地開發不同的環境的軟體。最後，React 是由 Facebook 所主導及持續的維護，如此它的穩定性和其他框架相比，肯定是更佳的。"
-        },{
-            "title": "安裝環境",
-            "context": "{{photo}}"
-        }
-    ],
-    "photo": {
-        "1":[
-            "https://www.google.com/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png"
-        ]
-    },
-    "previous": "install"
-}
+[
+	{"title": "First day",
+	"context": "Where to start with",
+	"link": "install"},
+	{"title": "Second day",
+	"context": "structure component",
+	"link":"structure_component"}
+]
