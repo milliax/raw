@@ -7,13 +7,43 @@
             "context": "React 是一款 javascript Base 的前端函式庫，和一般的框架不同的是React只是一款用來渲染的函示庫，只是用起來和一般的 vue angular 等框架差不多。再加上 React 還有其相關的姊妹軟體，如：React Native 和 React 360 等，可以輕易的以類似的語言邏輯輕易地開發不同的環境的軟體。最後，React 是由 Facebook 所主導及持續的維護，如此它的穩定性和其他框架相比，肯定是更佳的。"
         },{
             "title": "安裝環境",
-            "context": "{{photo}}"
-        }
+            "context": "一般來說開發React時，你需要有 npm 套件管理器，安裝npm管理器的方式有很多種，你可以直接用電腦內建的套件管理器如：brew 及 apt 直接安裝node即可，但是這樣npm版本可能會過於老舊，因此我建議安裝 nvm 以管理 npm。{{code}}接著再安裝node{{code}}，查看npm版本{{code}}，藉由nvm方便的管理功能，從此以後npm的版本就不會亂掉了"
+        },{
+			"title": "使用IDE",
+			"context": "在寫程式的時候我們總不可能直接用 vim 直接寫ㄅ，沒有了輸入提示及錯字修正等功能，程式寫起來真的會很痛苦呢，在這裡我推薦兩套寫程式的利器。<br>1. Visual Studio Code：<br>他的容量不大，CPU使用率也不高，而且也能安裝許多擴充元件，如：IntelliSense等，程式寫起來真的超級順的。<br>2. 可能是比較少人聽過的 webstorm ，他的自動修正功能比起IntelliSense更加強大，而且文件的重新命名也超級方便，雖然專業版需要錢，但是只要你有{{link}}就可以有一年的專業版資格，沒有專業版也沒有關係 Intellij IDEA Community的功能就足夠我們一般使用了，但是缺點就是電腦可能需要好一點用起來才不會卡卡的"
+		},{
+			"title": "建立第一個專案",
+			"context": "只需要在terminal中輸入{{code}}，npm 就會自動幫你建立好一開始需要的元件了，安裝完後在專案目錄中輸入{{code}}，打開瀏覽器假如你可以看到：{{photo}}那就大功告成了"
+		}
     ],
+	"link": {
+		"2":[
+			{
+				"text": "github student的資格",
+				"link": "post of github student sign up"
+			}
+		]
+	},
     "photo": {
-        "1":[
-            "https://www.google.com/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png"
-        ]
+		"3":[
+			{
+				"link": "somewhere",
+				"alt": "create react app welcome picture",
+				"height": "100px",
+				"weight": "100px"
+			}
+		]
     },
+	"code": {
+		"1": [
+			"curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash",
+			"nvm install 14",
+			"npm -v"
+		],
+		"3": [
+			"npx create-react-app 你的專案名稱",
+			"npm start"
+		]
+	},
     "previous": "install"
 }
