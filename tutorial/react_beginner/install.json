@@ -10,8 +10,10 @@
             "context": "{{photo}}"
         }
     ],
-    "photo":[
-        "somewhere"
-    ],
+    "photo": {
+        "1":[
+            "somewhere"
+        ]
+    },
     "next": "structure_component"
 }
