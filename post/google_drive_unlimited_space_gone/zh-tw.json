@@ -26,7 +26,7 @@
         },
         "colab_link": {
             "type": "code",
-            "text": "#Setup\n#因為google colab本身就是一個算力極強的雲端python\n#如果要執行linux的動作就必須加\"!\"在前面\n#連結google drive到這個python檔中\nfrom google.colab import drive\ndrive.mount('/content/drive') #安裝rclone(因為其他的雲端硬碟沒有辦法直接引用)\n!curl https://rclone.org/install.sh | sudo bash\n#rclone 設定(新增雲端硬碟資訊)\n!rclone config!rclone copy /content/drive/My\\ Drive/music remote:/music"
+            "text": "#Setup\n#因為google colab本身就是一個算力極強的雲端python\n#如果要執行linux的動作就必須加\"!\"在前面\n#連結google drive到這個python檔中\nfrom google.colab import drive\ndrive.mount('/content/drive') #安裝rclone(因為其他的雲端硬碟沒有辦法直接引用)\n!curl https://rclone.org/install.sh | sudo bash\n#rclone 設定(新增雲端硬碟資訊)\n!rclone config\n!rclone copy /content/drive/My\\ Drive/music remote:/music"
         },
         "colab_file_link": {
             "type": "link",
