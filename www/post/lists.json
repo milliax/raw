@@ -15,5 +15,13 @@
         "link": "webhook_on_linux_with_ngnix",
         "title": "搭配nginx在linux上建置webhook",
         "context": "當時為了配合我的電動窗簾而學的webhook"
+    },{
+        "link": "another_day_another_cloth",
+        "title": "星期一猴子穿新衣",
+        "context": "一次幫樹梅派加上散熱器的經驗"
+    },{
+        "link": "github_education",
+        "title": "Github 教育版？",
+        "context": "只要拿到這個資格，就可以換到很多免費的好康？"
     }
 ]
