@@ -1,0 +1,48 @@
+{
+    "title": "Minecraft 伺服器自己架",
+    "context": "有了 Minecraft 就能在裡面和同學一決高下(前提是你要有朋友)",
+    "p": [
+        {
+            "context": "Minecraft是一款老少咸宜的好遊戲，但是要讓遊戲變得更好玩，就要跟朋友一起玩，於是我便犧牲了我的電腦以跟同學一起玩Minecraft😥😥，獨樂樂不如眾樂樂嘛(其實我只是想要把同學推下去)"
+        },
+        {
+            "title": "事前準備",
+            "context": "準備一台電腦，什麼作業系統都可以，linux最佳"
+        },
+        {
+            "title": "正言-Linux",
+            "context": "1. /^java_install/^再到minecraft官網下載server.jar下載完之後就可以執行拉\n執行：\n/^execute/^如果記憶體不夠可以自己調整，Server配置建議：/^minimum_requirements/^"
+        },
+        {
+            "title": "續",
+            "context": "但是每次都要開伺服器都要打這麼一大串真的非常的不方便\n所以我就把它存在sh檔中，順便用tmux執行，這樣就可以做其他的事(在windows中還可以直接按叉叉，他一樣會繼續執行)\nsh檔：/^half_auto_code/^最後/^last_step/^之後只需要/^run_script/^就可以執行了"
+        }
+    ],
+    "additionals": {
+        "java_install": {
+            "type": "code",
+            "text": "#apt update\n#apt install default-jre"
+        },
+        "execute": {
+            "type": "code",
+            "text": "java -Xmx1G -Xms1G -jar server.jar nogui"
+        },
+        "minimum_requirement":{
+            "type": "photo",
+            "link": "somewhere"
+        },
+        "half_auto_code":{
+            "type": "code",
+            "text": "/bin/sh\ncd Minecraft_Server_1/\ntmux new-session -s mine-java sudo java -Xms2G -Xmx4G -jar server.jar nogui"
+        },
+        "last_step": {
+            "type": "code",
+            "text": "sudo chmod +x 檔名"
+        },
+        "run_script":{
+            "type": "code",
+            "text": "./檔名"
+        }
+    },
+    "date": "Tue Feb 9 2021 08:00:00 GMT+0800 (Taipei Standard Time)"
+}

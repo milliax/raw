@@ -3,5 +3,9 @@
         "link": "google_drive_unlimited_space_gone",
         "title": "Google Drive沒有無限空間了啦",
         "context": "當Google Drive 教育方案不再提供無限儲存空間時，資料將何去何從"
+    },{
+        "link": "building_minecraft_server",
+        "title": "Minecraft 伺服器自己架",
+        "context": "有了 Minecraft 就能在裡面和同學一決高下(前提是你要有朋友)"
     }
 ]
