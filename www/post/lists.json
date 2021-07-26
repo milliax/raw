@@ -12,7 +12,7 @@
         "title": "讓fstab有容錯空間",
         "context": "一次樹梅派的fstab爛掉了的經驗"
     },{
-        "link": "webhook_on_linux_with_ngnix",
+        "link": "webhook_on_linux_with_nginx",
         "title": "搭配nginx在linux上建置webhook",
         "context": "當時為了配合我的電動窗簾而學的webhook"
     },{
