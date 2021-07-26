@@ -1,8 +1,7 @@
 [
-{"title":"React",
-"context": "20 days to learn React",
-"link": "react_beginner"},
-{"title": "C++",
-"context": "20 lessons for C++",
-"link": "CPP_beginner"}
+    {
+        "title": "React",
+        "context": "20 days to learn React",
+        "link": "react_beginner"
+    }
 ]

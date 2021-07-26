@@ -1,2 +1,10 @@
-[{"uuid": "unique","title": "hungry"},
-{"uuid": "veryunique","title": "stomachache"}]
+[
+    {
+        "link": "unique",
+        "title": "hungry"
+    },
+    {
+        "link": "veryunique",
+        "title": "stomachache"
+    }
+]
