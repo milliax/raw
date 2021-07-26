@@ -1,0 +1,56 @@
+{
+    "title": "搭配nginx在linux上建置webhook",
+    "context": "當時為了配合我的電動窗簾而學的webhook",
+    "p": [
+        {
+            "context": "如果說你想要用webhook，你可以再IFTTT上輕鬆設定一下就可以了，但是如果你不想要讓你的帳號綁在IFTTT上，可是又需要webhook的功能的時候，是不是就沒有辦法了呢？\n當然不是ㄚ，不然我幹嘛寫這一篇呢？"
+        },
+        {
+            "title": "安裝webhook",
+            "context": "一開始，我們先安裝webhook，你可以用 apt 或snapd下載並安裝他，像這樣：/^install_webhook/^\n接下來，我們就要開始撰寫我們的json檔，告訴webhook接收到命令的時候要做甚麼事："
+        },{
+            "title": "告訴webhook要做甚麼",
+            "context": "/^webhook_json/^隨後我們就可以在tmux中用webhook開啟json檔\n/path/to/webhook -hooks hooks.json -verbose\n如果已經有安裝webhook的，就可以把/path/to/webhook 改成webhook就好了"
+        },{
+            "title": "撰寫sh檔，也就是webhook接收到命令後要執行的動作",
+            "context": "我們先以最基本的為例/^sh_hello_world/^如此一來我們的webhook server就可以告一個段落了\n記得要開啟port 9000的防火牆喔"
+        },{
+            "title": "好像好了？",
+            "context": "但是這樣卻又覺得還是少了甚麼，因為你要呼叫這一個指令的時候，還是需要再加上 http://your.domain:9000/hooks/id\n而且這樣沒有https的加持，好像會很危險？\n那我們就把他跟nginx合併吧"
+        },{
+            "title": "利用nginx virtual host的功能",
+            "context": "如果還沒有安裝nginx server的可以看這邊？\n在/etc/nginx/sites-available 中建立新的檔案便加上：/^sites_available/^"
+        },{
+            "title": "再加上免費又簡單的certbot建立憑證",
+            "context": "/^install_certbot/^照著他的指示做就不會有問題了\n這裡好像以後會有certbot的教學？"
+        },{
+            "title": "總結",
+            "context": "最後，當我們要使用webhook的時候，就可以在網址上輸入\nhttps://your.domain/id\n如此一來，只要你的伺服器是開著的，你就可以利用webhook遠端幫你做事，甚至可以開啟minecraft server而不用經過你？"
+        },{
+            "context": "至於沒有網域的話，就只好拜託ngrok幫忙了"
+        }
+    ],
+    "additionals": {
+        "install_webhook":{
+            "type": "code",
+            "text": "sudo apt install webhook"
+        },
+        "webhook_json":{
+            "type": "code",
+            "text": "#json檔\n[\n{\n\"id\": \"呼叫名稱\",\n\"execute-command\": \"指令檔\",\n\"command-working-directory\": \"程式執行時所在的資料夾\"\n}\n]"
+        },
+        "sh_hello_world":{
+            "type": "code",
+            "text": "#!/bin/sh\necho \"Hello World\""
+        },
+        "sites_available":{
+            "type": "code",
+            "text": "server{\nserver_name webhook.domain.tw;用自己的網域喔\nlocation / {\nproxy_pass http://127.0.0.1:9000/hooks/;\n}\n}"
+        },
+        "install_certbot":{
+            "type": "code",
+            "text": "sudo certbot --nginx"
+        }
+    },
+    "date": "Thur Jan 21 2021 08:00:00 GMT+0800 (Taipei Standard Time)"
+}
