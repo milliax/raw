@@ -7,5 +7,9 @@
         "link": "building_minecraft_server",
         "title": "Minecraft 伺服器自己架",
         "context": "有了 Minecraft 就能在裡面和同學一決高下(前提是你要有朋友)"
+    },{
+        "link": "fstab_more_flexable",
+        "title": "讓fstab有容錯空間",
+        "context": "一次樹梅派的fstab爛掉了的經驗"
     }
 ]
