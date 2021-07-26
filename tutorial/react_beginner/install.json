@@ -23,7 +23,7 @@
         "github_student": {
             "type": "link",
             "text": "github student的資格",
-            "link": "post of github student sign up"
+            "link": "https://bp.sivir.pw/?p=23"
         },
         "welcome": {
             "type": "photo",
@@ -52,6 +52,5 @@
             "type": "code",
             "text": "npm start"
         }
-    },
-    "previous": "install"
+    }
 }
