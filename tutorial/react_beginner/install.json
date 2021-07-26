@@ -12,7 +12,7 @@
         },
         {
             "title": "使用IDE",
-            "context": "在寫程式的時候我們總不可能直接用 vim 直接寫ㄅ，沒有了輸入提示及錯字修正等功能，程式寫起來真的會很痛苦呢，在這裡我推薦兩套寫程式的利器。\n1. Visual Studio Code：\n他的容量不大，CPU使用率也不高，而且也能安裝許多擴充元件，如：IntelliSense等，程式寫起來真的超級順的。\n2. 可能是比較少人聽過的 webstorm ，他的自動修正功能比起IntelliSense更加強大，而且文件的重新命名也超級方便，雖然專業版需要錢，但是只要你有 /^Github_student/^ 就可以有一年的專業版資格，沒有專業版也沒有關係 Intellij IDEA Community的功能就足夠我們一般使用了，但是缺點就是電腦可能需要好一點用起來才不會卡卡的"
+            "context": "在寫程式的時候我們總不可能直接用 vim 直接寫ㄅ，沒有了輸入提示及錯字修正等功能，程式寫起來真的會很痛苦呢，在這裡我推薦兩套寫程式的利器。\n1. Visual Studio Code：\n他的容量不大，CPU使用率也不高，而且也能安裝許多擴充元件，如：IntelliSense等，程式寫起來真的超級順的。\n2. JetBrains 系列：\n可能是比較少人聽過的 webstorm ，他的自動修正功能比起IntelliSense更加強大，而且文件的重新命名也超級方便，雖然專業版需要錢，但是只要你有 /^github_student/^ 就可以有一年的專業版資格，沒有專業版也沒有關係 Intellij IDEA Community的功能就足夠我們一般使用了，但是缺點就是電腦可能需要好一點用起來才不會卡卡的"
         },
         {
             "title": "建立第一個專案",
@@ -22,15 +22,15 @@
     "additionals": {
         "github_student": {
             "type": "link",
-            "text": "github student的資格",
+            "text": "Github student的資格",
             "link": "https://bp.sivir.pw/?p=23"
         },
         "welcome": {
             "type": "iframe",
             "link": "https://tutorial.sivir.pw/",
-            "title": "create react app welcome picture",
+            "title": "create react app welcome",
             "height": "100px",
-            "weight": "100px"
+            "width": "100px"
         },
         "nvm_version": {
             "type": "code",
@@ -44,7 +44,7 @@
             "type": "code",
             "text": "nvm install 14"
         },
-        "creact_app": {
+        "create_app": {
             "type": "code",
             "text": "npx create-react-app 你的專案名稱"
         },

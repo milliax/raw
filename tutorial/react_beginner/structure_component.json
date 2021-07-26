@@ -44,7 +44,7 @@
             "type": "code",
             "text": "nvm install 14"
         },
-        "creact_app": {
+        "create_app": {
             "type": "code",
             "text": "npx create-react-app 你的專案名稱"
         },
