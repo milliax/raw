@@ -8,7 +8,7 @@
         },
         {
             "title": "安裝環境",
-            "context": "一般來說開發React時，你需要有 npm 套件管理器，安裝npm管理器的方式有很多種，你可以直接用電腦內建的套件管理器如：brew 及 apt 直接安裝node即可，但是這樣npm版本可能會過於老舊，因此我建議安裝 nvm 以管理 npm。/^curl_nvm/^接著再安裝node/^nvm_install_node/^，查看npm版本/^nvm_version/^，藉由nvm方便的管理功能，從此以後npm的版本就不會亂掉了"
+            "context": "一般來說開發React時，你需要有 npm 套件管理器，安裝npm管理器的方式有很多種，你可以直接用電腦內建的套件管理器如：brew 及 apt 直接安裝node即可\n但是這樣npm版本可能會過於老舊，因此我建議安裝 nvm 以管理 npm。/^curl_nvm/^接著再安裝node/^nvm_install_node/^查看npm版本/^nvm_version/^藉由nvm方便的管理功能，從此以後npm的版本就不會亂掉了"
         },
         {
             "title": "使用IDE",
@@ -16,7 +16,7 @@
         },
         {
             "title": "建立第一個專案",
-            "context": "只需要在terminal中輸入/^create_app/^，npm 就會自動幫你建立好一開始需要的元件了，安裝完後在專案目錄中輸入/^start_app/^，打開瀏覽器假如你可以看到：/^welcome/^那就大功告成了"
+            "context": "只需要在終端機中輸入/^create_app/^npm 就會自動幫你建立好一開始需要的元件了，安裝完後在專案目錄中輸入/^start_app/^打開瀏覽器假如你可以看到：/^welcome/^那就大功告成了"
         }
     ],
     "additionals": {
@@ -29,8 +29,8 @@
             "type": "iframe",
             "link": "https://tutorial.sivir.pw/",
             "title": "create react app welcome",
-            "height": "100px",
-            "width": "100px"
+            "height": "60%",
+            "width": "80%"
         },
         "nvm_version": {
             "type": "code",
