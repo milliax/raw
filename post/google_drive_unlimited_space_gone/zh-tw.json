@@ -1,0 +1,38 @@
+{
+    "title": "Google Drive沒有無限空間了啦",
+    "context": "當Google Drive 教育方案不再提供無限儲存空間時，資料將何去何從",
+    "p": [
+        {
+            "context": "前幾天，我收到兩封來自學校資訊組的信，我想說老師從來都沒有記過信給我們，信中到底寫了甚麼。原來google打算從我們學生下手，把之前給我們的無限量儲存空間收回去，這樣真的很不優，雖然距離期限還有一年多，但是雲端硬碟裡面存了2TB檔案的我，這件事真的事件燙手山芋。"
+        },
+        {
+            "context": "轉移這麼龐大的資料，我第一個就想到在SITCON年會上，學長教我的rclone，他可以支援大多數的雲端硬碟並且可以在純文字介面上運行，但是有了軟體還是要有硬體上的配合，尤其是網路速度要夠才會比較好處理，更何況讓樹梅派承擔這重責大任，我的minecraft server跟wordpress會變得沒有辦法使用。這時，我又想起好用的colab，他不但可以執行python程式碼，還可以直接運行linux指令！那轉移到onedrive的學生版或是e5企業版，應該都不是問題了"
+        },{
+            "title": "轉移資料的事前準備",
+            "context": "一個將要被刪容量的google學生帳號、rclone支援的雲端空間"
+        },{
+            "title": "正文",
+            "context": "首先在網址列中輸入：/^new_colab_link/^，並建立新的notebook\n在中間的框框中輸入/^colab_link/^有了這兩段的程式碼，我們就可以運用google colab的資源把google drive資料傳送到任意的雲端硬碟中\n真是奇怪colab好難用喔，有沒有現成的檔案阿\n/^colab_file_link/^"
+        },{
+            "title": "續",
+            "context": "等等，rclone config要怎麼樣用阿，他跳出好多東西喔；你剛剛上面說的microsoft e5到底是什麼東西，只要點下面的連結就可以一探究竟喔！\nrclone教學、microsoft e5\n诶？奇怪，怎麼沒有其他的連結阿\n歐忘記說，因為我還沒有寫出來啦"
+        }
+    ],
+    "additionals": {
+        "new_colab_link": {
+            "type": "link",
+            "text": "https://colab.research.google.com/drive/",
+            "link": "https://colab.research.google.com/drive/"
+        },
+        "colab_link": {
+            "type": "code",
+            "text": "#Setup\n#因為google colab本身就是一個算力極強的雲端python\n#如果要執行linux的動作就必須加\"!\"在前面\n#連結google drive到這個python檔中\nfrom google.colab import drive\ndrive.mount('/content/drive') #安裝rclone(因為其他的雲端硬碟沒有辦法直接引用)\n!curl https://rclone.org/install.sh | sudo bash\n#rclone 設定(新增雲端硬碟資訊)\n!rclone config!rclone copy /content/drive/My\\ Drive/music remote:/music"
+        },
+        "colab_file_link": {
+            "type": "link",
+            "text": "這裡有！！",
+            "link": "https://colab.research.google.com/drive/12pygk-51ey4YSdjadK-zfqfTe1i_DXvl?usp=sharing"
+        }
+    },
+    "date": "Sat Feb 27 2021 08:00:00 GMT+0800 (Taipei Standard Time)"
+}
