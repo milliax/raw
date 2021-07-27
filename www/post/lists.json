@@ -35,5 +35,9 @@
         "link": "gy_39_download_link",
         "title": "GY-39 微控光度計載點",
         "context": "GY-39 光度計相關軟體載點"
+    },{
+        "link": "coding_arduino_with_VS_code",
+        "title": "Visual Studio Code 也可以拿來寫Arduino？",
+        "context": "利用Visual Studio Code 寫Arduino程式碼"
     }
 ]

@@ -1,0 +1,37 @@
+{
+    "title": "Visual Studio Code 也可以拿來寫Arduino？",
+    "context": "利用Visual Studio Code 寫Arduino程式碼",
+    "p": [
+        {
+            "context": "隨著時間的演進，Microsoft 重新開發了Visual Stuio Code 擺脫了 Visual Studio的肥胖臃腫，其輕便及跨平台的特性，使的他廣為流傳。不知道你是否有用過Arduino IDE ，除了介面非常陽春之外，他還沒有內建自動選字的功能\n蛤？你說Arduino IDE沒有自動選字？(可是連dev C++都有ㄝ)\n那我們就把Arduino IDE跟有intelliSence 的Visual Studio Code 並在一起ㄅ"
+        },{
+            "title": "需要的軟體或功能",
+            "context": "Arduino IDE： 用於當作visual studio code的編譯器，/^arduino_download_link/^\nVisual Studio Code： 今天的主角 /^VS_code_download_link/^\nVS code Arduino 擴充元件： 在VS code 中的商城安裝"
+        },{
+            "context": "首先，打開VS code 然後按下 \" ctrl + ,\"，進入設定頁面\n在 Extention 中找到 Arduino Configuration 並在 Arduino Path 中填入你Arduino IDE安裝的位置"
+        },{
+            "title": "安裝位置",
+            "context": "windows： C:\\Program Files (x86)\\Arduino\nmac： 我沒有所以我不知道\nlinux： 就你解壓縮的地方"
+        },{
+            "context": "這樣VS code就可以透過 Arduino IDE 編譯了\n接下來建立Arduino檔案，在每一次建立檔案時，按下F1\n並輸入/^arduino_initialize/^\n如此他就會跳出提示，第一次他會安裝VS code必要的檔案，然後叫跳掉\n所以可能需要再次輸入/^arduino_initialize/^"
+        },{
+            "context": "往後只要進入到*.ino的檔案時，由上角就會出現上傳及驗證的按鈕，\n下方則是序列埠及Arduino機型設置\n\n這樣輕鬆幾個步驟就可以有進階版的Arduino編譯器了"
+        }
+    ],
+    "additionals": {
+        "arduino_downaload_link":{
+            "type": "link",
+            "link": "https://www.arduino.cc/en/software",
+            "text": "載點"
+        },
+        "VS_code_download_link": {
+            "type": "link",
+            "link": "https://code.visualstudio.com/",
+            "text": "載點"
+        },"arduino_initialize":{
+            "type": "code",
+            "text": ">Arduino: Initialize"
+        }
+    },
+    "date": "Wed Jan 20 2021 08:00:00 GMT+0800 (Taipei Standard Time)"
+}
