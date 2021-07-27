@@ -1,0 +1,40 @@
+{
+    "title": "輕量伺服器的好幫手-Google Photos",
+    "context": "如何減輕伺服器的負擔，又不失去原有的便利性呢？",
+    "p": [
+        {
+            "context": "如果說你跟我一樣，只是個學生，沒有甚麼多的摳摳，但是又想要架一台伺服器，我想樹梅派應該是最合適的解決方案，\n但是這樣子嚴苛的環境下，網路和伺服器的處理效能都十分的有限，但是如果你想要放很多的照片或影片上去網站的話\n伺服器一定是沒有辦法負擔這麼大的請求，而且你的家的網速會掉到非常可憐\n但是如果你有google帳號的話，這一切都好說了，因為你可以把照片丟上去google相簿中(google硬碟我還沒有試過)，\n這樣每次載入的時候用的就會是google的流量了。"
+        },{
+            "title": "正文",
+            "context": "首先，我們要先將圖片上傳到google 相簿中。/^google_photos_upload/^接下來，我們需要取的圖片的公開連結\n(如果直接在圖片取得連結的話，他是有時間限制的)\n\n所以對著照片按下共用連結/^google_photos_share_link/^之後按下建立連結/^google_photos_create_link/^產生連結之後，還需要進入那個連結，點進你要進去的圖片中\n在你想要分享的圖片上按下右鍵複製圖片的位置或網址。/^copy_link/^取得網址之後，透過<img src=\"link_here\" height=\"高度\" width=\"寬度\">\n你也可以寫在php中，像這樣\n<?php echo \"<img src=\".\"網址\".\" width=\"50%\">\" ?>\n記得加入跳脫字元，不然你的server會跳出internel server error"
+        },{
+            "context": "但是呢，在我把網站搬到wordpress上之後，他又變得更方便了\n\n在文字中，按下enter，他就會在右手邊的地方看到 “+” 的圖示，按下圖片，你就可以把在google photos上面的照片藉由從網址插入媒體放到網站上面了/^wordpress/^ 而且插入的圖片還可以自由調整大小\n\n如此一來，你家的網路就可以減輕一點負擔了ㄅ"
+        }
+    ],
+    "additionals": {
+        "google_photos_upload":{
+            "type": "photo",
+            "link": "https://lh3.googleusercontent.com/pw/ACtC-3edInF3u4Qz8h27ZEGNzIzECNYGDlIjKU5LVeui450dTSgc2N2-SzpcieFlc759CWgecZqEW-m9v1_7dphnGF3zBejyYDfq6X_szs5U6F1qEdX2EvqFmq3elcX0e559LQWBHql_PZNa4jEf7A1GNfPV=w1470-h744-no?authuser=0",
+            "alt": "photo of uploading the file"
+        },
+        "google_photos_share_link":{
+            "type": "photo",
+            "link": "https://lh3.googleusercontent.com/pw/ACtC-3eD8bZ72ltSmbkVAU_BbR_EQvkj0RBhaTb9yj-il6BdvdetTkdjxKrCA4qDsNbhVytv5EtRplwnIy1xiaoTtFu5_1eH4ksGg5g_XPI-tIf34Agq6qS8mKwYbu0X0kU9ZV-iNZKbJd06_zyfZwnnGhIb=w980-h632-no?authuser=0",
+            "alt": "photo explaining how to upload"
+        },
+        "google_photos_create_link":{
+            "type": "photo",
+            "link": "https://lh3.googleusercontent.com/pw/ACtC-3dPFRkGSdHAE-e_evbDWGzbwm6MLOqLXu5WfYwNoHS7wsRQdsExbuQjsRVVseF_WZO1mYtqOn1FSs84JNYc3SY9dpOa2kooZA4NnfuJjDsr7eXL4sg3kTOqQN5_nc6GCCWGW8Qcw2XwVoj34935ieQR=w775-h881-no?authuser=0",
+            "alt": "explain how to generate link address"
+        },"copy_link":{
+            "type": "photo",
+            "link": "https://lh3.googleusercontent.com/pw/ACtC-3elfVAL17rt2z4pNmR-b-vwn4mleBkYLlSRB3C1EKY4qF7qPzvc5Nol1--nj7FDfghlSScduEj_LleyiPhZPPvWlgL_qBQ3GXk0dsAccDye5Z8QYSCG1fBIGBwijj-NEr-qi_ML4UDbioHb_wa7rXqD=w1264-h943-no?authuser=0",
+            "alt": "obtaining photo address"
+        },"wordpress":{
+            "type": "photo",
+            "link": "https://lh3.googleusercontent.com/pw/ACtC-3entuo9shyTbPYCJMLXEc2nlHDgJ8fJSbHNHz1U1n_wpGZbjkEArM4wCv-zsgcOmg5bhtn-REZwevbcXw1XtZn832ZNxY7x7LmXp75XhE5cFcs-lJDSTLC0UUvMngEjrO6WxoqtXni-gGin3k0PuBT0=w785-h272-no?authuser=0",
+            "alt": "wordpress upload photo"
+        }
+    },
+    "date": "Thur Jan 01 2021 08:00:00 GMT+0800 (Taipei Standard Time)"
+}

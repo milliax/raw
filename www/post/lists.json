@@ -23,5 +23,9 @@
         "link": "github_education",
         "title": "Github 教育版？",
         "context": "只要拿到這個資格，就可以換到很多免費的好康？"
+    },{
+        "link": "light_weight_server",
+        "title": "輕量伺服器的好幫手-Google Photos",
+        "context": "如何減輕伺服器的負擔，又不失去原有的便利性呢？"
     }
 ]
