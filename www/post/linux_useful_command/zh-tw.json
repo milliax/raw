@@ -1,0 +1,84 @@
+{
+    "title": "Linux 常用指令",
+    "context": "一個紀錄著linux常用指令的地方",
+    "p": [
+        {
+            "context": "cd：切換資料夾目錄"
+        },
+        {
+            "context": "ls：列出當前資料夾的檔案(可利用-l參數顯示詳細資訊)(-a全部資訊)(-h容量轉換成可視單位)"
+        },
+        {
+            "context": "mkdir：建立新資料夾"
+        },
+        {
+            "context": "sudo：於該行命令中使用root權限(可利用sudo su以root權限登入)"
+        },
+        {
+            "context": "apt、apt-get：ubuntu系列的檔案套件管理器\napt update 可以取得新安裝資訊\napt install 軟體名稱 可以安裝新應用程式"
+        },
+        {
+            "context": "ssh：以加密方式遠端連線至其他伺服器(可使用-p參數改變port，預設以port 22)"
+        },
+        {
+            "context": "mount：掛載其他裝置 Eg. sudo mount dev/sda2 /mnt/Folder"
+        },
+        {
+            "context": "man：可以查詢不會的指令"
+        },
+        {
+            "context": "scp：你可以直接進行檔案傳輸 Eg.scp /home/ubuntu/Hello.cpp /ubuntu@IP:/home/ubuntu/"
+        },
+        {
+            "context": "cat：直接讀取檔案"
+        },
+        {
+            "context": "nano：直接編輯檔案(還有vi跟vim可以用)"
+        },
+        {
+            "context": "touch：單純建立檔案"
+        },
+        {
+            "context": "tmux：開啟多工視窗"
+        },
+        {
+            "context": "exit：結束該工作程序"
+        },
+        {
+            "context": "adduser：新增使用者"
+        },
+        {
+            "context": "如果要讓他可以享有sudo的權限記得要把他加到group裡面或是直接變更 /etc/group"
+        },
+        {
+            "context": "usermod：另一個加入群組的辦法"
+        },
+        {
+            "context": "passwd：建立或變更密碼(同學的伺服器好像有一點危險)(只要有root權限，就可以改掉其他使用者密碼)"
+        },
+        {
+            "context": "fdisk：磁碟工具(-l可以查詢目前磁碟狀態)(目標磁碟可以直接切換到該磁碟對他動作)"
+        },
+        {
+            "title": "小工具介紹",
+            "context": "aria2c：下載bt檔案(你可以在後面直接加上*.torrent, 或者是magnet)"
+        },
+        {
+            "context": "megadl：可以直接下載mega的檔案(如果要無限制下載好像可以用一下Proxy)"
+        },
+        {
+            "context": "mocp：可以撥放音樂(介面做得非常好)(但是一般人應該不會用linux terminal聽歌)"
+        },
+        {
+            "context": "ufw：ubuntu提供的簡易防火牆"
+        },
+        {
+            "context": "sudo lshw -c disk：如果找不到磁碟機的位置時這個很好用"
+        },
+        {
+            "context": "chattr -ais /bin/ls ：有時候資料夾會變成連root都無法編輯的窘境,可以用這一個指令重新編寫資料結構下的標籤(屬性)"
+        }
+    ],
+    "additionals": {},
+    "date": "Thur Jan 21 2021 08:00:00 GMT+0800 (Taipei Standard Time)"
+}

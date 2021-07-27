@@ -1,0 +1,49 @@
+{
+    "title": "GY-39 微控光度計載點",
+    "context": "GY-39 光度計相關軟體載點",
+    "p": [
+        {
+            "title" : "經過",
+            "context": "同學做科展需要用到光度計\n於是他叫我幫他做？我一開始不知道要幹嘛(現在還是)\n於是我便找呀找，想要找到程式碼貼在Arduino上，但是阿\n似乎沒有人有分享呢！"
+        },{
+            "context": "這樣便讓我傷透了腦經，我只能在網路上找說明文檔自己硬幹，原本我還可以很輕易的在taiwan iot 上找到說明文檔，但是過一個禮拜之後，taiwan iot變成了這機車的樣子/^embarrassing_picture/^"
+        },{
+            "context": "我的pdf都沒有載下來啦，taiwan iot就這樣掛掉了，而我也已經把同學請我的麥當勞吃完了，這樣子應該怎麼辦？？？\n\n找到了百度雲盤的網址，但他說內容侵權，所以被下架？？？\n\n後來在網際網路上漂流了1個多小時之後，我在淘寶網上找到救星，他把網址藏在一個很不起眼的地方，但我找到了！/^download_picture/^"
+        },{
+            "context": "最後說不定有很多人跟我樣，為了找說明文檔翻了半天，所以我直接把說明文檔載下來放在雲端上面，以節省大家的時間。"
+        },{
+            "title": "下載連結",
+            "context": "/^gy39_pdf/^/^gy39_computer_software/^/^gy-39_android_app/^/^gy-39_original/^(電腦軟體跟應用程式我都沒有試過喔，因為我不太敢用)"
+        }
+    ],
+    "additionals":{
+        "embarrassing_picture": {
+            "type": "photo",
+            "link": "https://lh3.googleusercontent.com/pw/ACtC-3cMEsSI3z6TtNy19sYrohkPNKzQya8FJszqq5ggNe6BTw6aztGQMDPl72MoaEF7uUCn_UCV_mDMkdXx_JmNq77hVqoxE4qibMlK7f1sTJP8ai_7K8gJ-3eMNpThVEaB9INZ5hHZTyoSQXseMH5n0vOc=w959-h454-no?authuser=0",
+            "alt": "taiwan iot didn't pay the bill"
+        },
+        "download_picture": {
+            "type": "photo",
+            "link": "https://lh3.googleusercontent.com/pw/ACtC-3fuZ4xos6alZqOhBa0JH0fzkB97ckAMKPRMpg14kAZCYBlJF8GulmvFlKpcGFAsexlFYLv15PvJOhX9DmteW6szq_R-hWpLljB4nhog1LVRfNteivzoT81HWjeIdAPKwc2YEix66-ofC_WhGUwX0Z0B=w959-h568-no?authuser=0",
+            "alt": "the place I finally find the download link"
+        },"gy39_pdf":{
+            "type": "link",
+            "link": "https://drive.google.com/file/d/1ySLlniliiUg2bs2VDh_LuoTncWhsAcPh/view?usp=sharing",
+            "text": "GY-39 传感器模塊使用手册.pdf"
+        },"gy39_computer_software":{
+            "type": "link",
+            "text": "電腦軟體",
+            "link": "https://drive.google.com/file/d/1IJNC4z1m_pcQnFLZQTTQibpsPykuWp1-/view?usp=sharing"
+        },"gy-39_android_app":{
+            "type": "link",
+            "text": "android應用程式",
+            "link": "https://drive.google.com/file/d/1Q-59AMQKyTxZ98tBWbmHFYPnww5Zhiwq/view?usp=sharing"
+        },"gy-39_original":{
+            "type": "link",
+            "text": "最原始的壓縮檔",
+            "link": "https://drive.google.com/file/d/1_MkTY6cJ5xG1vWf56ghqYMUxvu-ijH07/view?usp=sharing"
+        }
+    },
+    "date": "Thur Jan 21 2021 08:00:00 GMT+0800 (Taipei Standard Time)"
+
+}
