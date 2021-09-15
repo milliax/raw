@@ -37,4 +37,4 @@ tmux new-session -s mine-java sudo java -Xms2G -Xmx4G -jar server.jar nogui
 ```bash
 sudo chmod +x run_minecraft.sh
 ```
-之後只需要執行sh黨就可以執行了
+之後只需要執行sh檔就可以執行了
