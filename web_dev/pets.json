@@ -2,71 +2,85 @@
     {
         "name": "Liam",
         "breed": "柴犬",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/58/Shiba_inu_taiki.jpg"
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/58/Shiba_inu_taiki.jpg",
+        "description": "柴犬（日語：柴犬／しばいぬ，學名：Canis lupus familiaris，英文：Shiba Inu），日本犬種之一。屬於中小型犬種。柴犬於1936年（昭和11年）12月16日被指定為日本的天然紀念物（指定了六種日本犬種的其中一個），亦是現存六種日本犬中其中一種小型犬。根據日本犬保存會，日本境內飼養的日本本土犬種裡，約有八成為柴犬。"
     },
     {
         "name": "Noah",
         "breed": "拉布拉多犬",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Afra_013.jpg/1024px-Afra_013.jpg"
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Afra_013.jpg/1024px-Afra_013.jpg",
+        "description": "拉布拉多尋回犬（英語：Labrador Retriever），簡稱拉布拉多犬（Labrador），是一種起源於加拿大紐芬蘭與拉布拉多省的中大型尋回犬，因為智商高且個性溫和、活潑，較沒有攻擊性，非常適合被選作寵物犬、導盲犬或其他工作犬，與金毛尋回犬、哈士奇並列三大低攻擊性犬種。拉布拉多是美國犬業俱樂部中目前登記數量最多的品種。"
     },
     {
         "name": "Oliver",
         "breed": "孟加拉貓",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Paintedcats_Red_Star_standing.jpg/330px-Paintedcats_Red_Star_standing.jpg"
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Paintedcats_Red_Star_standing.jpg/330px-Paintedcats_Red_Star_standing.jpg",
+        "description": "孟加拉貓（Bengal cat），又稱孟加拉豹貓，起源於美國，身體具有金色的底色及黑色的斑紋，體重約5.5～9公斤，骨架結實、身體強壯，皮毛短。該品種貓獨立性強，性情多變，有時表現出野性的一面，捕獵能力比其他品種的貓強。"
     },
     {
         "name": "James",
         "breed": "黃金獵犬",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/At_Sticker_Lumis_Golden.JPG/1024px-At_Sticker_Lumis_Golden.JPG"
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/At_Sticker_Lumis_Golden.JPG/1024px-At_Sticker_Lumis_Golden.JPG",
+        "description": "黃金獵犬（英語：Golden Retriever）是一種作為用來在配合射擊狩獵而培養出來的中大型獵犬。「尋回犬」這個名字是指該品種因性格穩重加上咬合力溫柔，叼咬物體時能做到不將其損壞，適合用來幫助獵人尋回被擊斃的獵物（通常是禽類）。做為一種從水獵犬雜交培育出來的犬種，金毛獵犬本能地熱愛游泳，而且聰明溫順很容易接受基本或高級服從標準的訓練。它們是一種長皮毛的品種，內層厚實，在戶外提供足夠的溫暖。金毛獵犬非常適合在郊區或鄉村環境中居住。[2]它們的皮毛特別是在季節變化時，會大量脫落，需要相當有規律的梳理。黃金獵犬最初於19世紀中葉在蘇格蘭繁殖。"
     },
     {
         "name": "William",
         "breed": "英國短毛貓",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/British_blue_2009_%28cropped%29.jpg/1024px-British_blue_2009_%28cropped%29.jpg"
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/British_blue_2009_%28cropped%29.jpg/1024px-British_blue_2009_%28cropped%29.jpg",
+        "description": "英國短毛貓（British Shorthair），是歐洲短毛貓和美國短毛貓的對應品種。\n19世紀末愛麗斯夢遊仙境中路易斯·卡洛爾的柴郡貓就被描繪成了一隻英國短毛斑紋貓。幾乎在同一時代，英國的育種專家們，包括哈里斯威爾開始了挑選最美麗雜交種貓的工作。\n1871年育種結果參加倫敦水晶宮博覽會。參展的這些貓稱做英國短毛貓，以便和其他外國和東方品種，以及和象安哥利亞貓這樣的長毛品種區分開來。"
     },
     {
         "name": "Benjamin",
         "breed": "加州閃亮貓",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Spangled_Cat.jpg"
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Spangled_Cat.jpg",
+        "description": "加州閃亮貓（California Spangled Cat）是家貓的一種，毛色紋路近似花豹和豹貓。加州閃亮貓最早大量繁殖於1980年，但是數量並不多，因此價格相當昂貴。\n加州閃亮貓是由阿比西尼亚猫、美國短毛貓和英國短毛貓所雜交出的品種。第一隻加州閃亮貓「凱西」（Casey）是由人類學家路易斯·李奇所繁殖出來的，並在1980年開始生育出後代。"
     },
     {
         "name": "Lucas",
         "breed": "馬爾濟斯",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/88/Maltese.jpg"
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/88/Maltese.jpg",
+        "description": "馬爾濟斯亦可譯為瑪爾濟斯，原產地為馬爾他。為白色長毛的小型犬種，性情溫和，外表可愛，撒嬌好客，因此十分受到人們的喜愛，是很受歡迎的犬種之一，廣泛飼養於世界各地。"
     },
     {
         "name": "Olivia",
         "breed": "北美洲短毛貓",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/American_Shorthair.jpg/330px-American_Shorthair.jpg"
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/American_Shorthair.jpg/330px-American_Shorthair.jpg",
+        "description": "美國短毛貓（英語：American Shorthair）是原產美國的一種貓，其祖先為歐洲早期移民帶到北美的貓種，與英國短毛貓和歐洲短毛貓同類。據記載，五月花號上攜帶了數隻貓以幫助除鼠。該品種的貓是在街頭巷尾收集來的貓當中選種、並和進口品種如英國短毛貓、緬甸貓和波斯貓雜交培育而成。美國短毛貓在歐洲很罕見，但在日本頗受好評，在美國國內也較受歡迎。"
     },
     {
         "name": "Emma",
         "breed": "波斯貓",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Persian_Cat.jpg"
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Persian_Cat.jpg",
+        "description": "波斯貓（Persian cat）是最古老的貓種之一，而其中一種廣為人知的波斯貓為金吉拉（Chinchilla）."
     },
     {
         "name": "Charlotte",
         "breed": "小獵犬",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Persian_Cat.jpg"
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Persian_Cat.jpg",
+        "description": "小獵犬（英語：Beagle），又稱獵兔犬、小獵兔犬，也音譯為米格魯、比格犬，是一種小型至中型的犬種。在分類上屬於獵犬，它的外觀近似獵狐犬，但是體形較小。\n小獵犬最早用於狩獵，現今在世界各地受到許多人的歡迎，被當成家庭寵物。美國漫畫《花生漫畫》中的主角史努比，被認為可能是全世界最出名的虛構小獵犬。"
     },
     {
         "name": "Amelia",
         "breed": "邊境牧羊犬",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Border_collie_different_eyes_dog.jpg/375px-Border_collie_different_eyes_dog.jpg"
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Border_collie_different_eyes_dog.jpg/375px-Border_collie_different_eyes_dog.jpg",
+        "description": "邊境牧羊犬（英語：Border Collie），中文簡稱邊牧，是一種原產自蘇格蘭和英格蘭交界處的牧羊犬，邊牧以牠是犬類智商第一而聞名於世，懂得利用兇狠的眼神和肢體的壓迫感來控制羊群的走向，是放牧和寵物的兩用犬。"
     },
     {
         "name": "Sophia",
         "breed": "沙特爾貓",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/3c/IC_Blue_Melody_Flipper_CHA_male_EX1_CACIB.jpg"
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/3c/IC_Blue_Melody_Flipper_CHA_male_EX1_CACIB.jpg",
+        "description": "沙特爾貓（Chartreux）又稱法國藍貓，體重3～7．5千克，中到大型，公貓比母貓威武，強壯有力，表情甜美：頭大且圓，眼大呈金色被毛短而密，單色（包括任何藍色或菸灰色、石板色）。法國藍貓歷史悠久，牠的祖先可能起源於伊朗、敘利亞和土耳其山區，傳說在古代因為牠的皮毛呈短羊毛狀被當作水獺毛皮賣，20世紀20年代法國育種專家將這種貓與波斯貓雜交進行育種，1939年在法國建立了該品種貓的標準。法國藍貓性格溫順，獨立性強，感情豐富，忠心於主人，易相處，不愛叫，喜歡安靜。這種貓生命力強．在寒冷地區和室外環境飼養有利用保持牠羊毛質般的皮毛，但太多的陽光照射能導致產生棕色重點色的出現性。成熟較晚，2～3歲才發情，每週1次被毛掩理，除去鬆動的死毛和死結以保持其羊毛狀的整潔。"
     },
     {
         "name": "Mia",
         "breed": "吉娃娃",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/0b/WhiteTanChihuahua.jpg"
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/0b/WhiteTanChihuahua.jpg",
+        "description": "吉娃娃（西班牙語：Chihuahueño，英語：Chihuahua）是全球最小且極具攻擊性的犬種，以墨西哥合眾國奇瓦瓦州命名。"
     },
     {
         "name": "Ava",
         "breed": "俄羅斯藍貓",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/55/Russian_Blue_Mix.jpg"
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/55/Russian_Blue_Mix.jpg",
+        "description": "俄羅斯藍貓（Russian Blue），為寵物貓的品種之一，亦名阿克漢格藍貓（該名稱源自該貓種的原產地俄羅斯阿爾漢格爾斯克港）。過去這種貓的毛色只有藍色，1970年代培育出了黑白毛色的俄羅斯藍貓。純種的俄羅斯藍貓呈中等深度的灰藍色，在貓的毛色中並不常見，故被視為一種貴族貓。俄羅斯藍貓起名為其身上藍色間雜銀色漸層的毛髮。俄羅斯藍貓廣為世人所知是它的聰穎與好玩，以及在陌生人面前的靦腆害羞的個性。由於俄羅斯藍貓的個性 （或者所謂的「貓格」) 與特殊的毛色使得他們在人群中頗為吃香，並且發展出與喜愛的人們極親密的感情。"
     }
 ]
